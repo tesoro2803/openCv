@@ -1,5 +1,5 @@
 import cv2 as cv
-img=cv.imread(r"S:\CV\123.jpg")
+img=cv.imread(r"path image.jpg")
 #image is not found then raise error
 if img is None:
     raise ValueError("jpg is not found") 
