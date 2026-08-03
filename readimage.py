@@ -1,7 +1,7 @@
 # import the CV package
 import cv2 as cv
 # read the image using imread()function
-img=cv.imread(r"S:\CV\1234.jpeg")
+img=cv.imread(r"path image.jpeg")
 # Check if the image was loaded or not
 if img is None:
     print("jpg is not found")
